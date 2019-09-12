@@ -10,7 +10,8 @@ echo "<hr>";
     echo "</td><td>" . $reg->descripcion;
     echo "</td><td>" . $reg->univen;
     echo "</td><td>" . $reg->linea;
-
+    echo "</td><td>" . $reg->tipo;
+    echo "</td><td>" . $reg->fecultpro;
     echo "</td><td>" . $reg->existencia;
     echo "</td><td>" . $reg->preciou;
     echo "</td><td>" . $reg->costo;
