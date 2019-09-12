@@ -14,6 +14,9 @@ class Zonas extends CI_Controller {
 		//echo $n . "<br>";
 		$datos["nroreg"]=$n;
 		$datos["reporte"]=$rep;
+		$this->load->view('plantilla/cabecera');
+        $this->load->view('plantilla/menuizquierdo');       
 		$this->load->view('zonas_view',$datos);
+		$this->load->view('plantilla/pie');
 	}
 }

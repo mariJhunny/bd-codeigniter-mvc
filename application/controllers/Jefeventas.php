@@ -12,6 +12,11 @@ class Jefeventas extends CI_Controller {
 		$rep = $this->Jefeventas_model->listado();//llama listado
 		$datos["nroreg"]=$n;
 		$datos["reporte"]=$rep;
+		$this->load->view('plantilla/cabecera');
+        $this->load->view('plantilla/menuizquierdo'); 
 		$this->load->view('jefeventas_view',$datos);
+		
+		$this->load->view('plantilla/pie');
+		
 	}
 }

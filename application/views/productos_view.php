@@ -17,5 +17,5 @@ echo "<hr>";
     echo "</td><td>" . $reg->costo;
     echo "</td></tr>";
  endforeach;
-
+ echo "</table>";
 ?>

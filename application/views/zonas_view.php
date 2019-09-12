@@ -10,5 +10,5 @@ echo "<hr>";
     echo "</td><td>" . $reg->descripcion;
     echo "</td></tr>";
  endforeach;
-
+echo "</table>";
 ?>

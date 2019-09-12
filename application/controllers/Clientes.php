@@ -12,6 +12,9 @@ class Clientes extends CI_Controller {
 		$rep = $this->Clientes_model->listado();//llama listado
 		$datos["nroreg"]=$n;
 		$datos["reporte"]=$rep;
+		$this->load->view('plantilla/cabecera');
+        $this->load->view('plantilla/menuizquierdo');   
 		$this->load->view('clientes_view',$datos);
+		$this->load->view('plantilla/pie');
 	}
 }

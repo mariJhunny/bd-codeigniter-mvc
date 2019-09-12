@@ -11,4 +11,5 @@ echo "<hr>";
     echo "</td></tr>";
  endforeach;
 
+ echo "</table>";
 ?>

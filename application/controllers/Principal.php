@@ -6,7 +6,7 @@ class Principal extends CI_Controller {
 	 
         $this->load->view('plantilla/cabecera');
         $this->load->view('plantilla/menuizquierdo');
-        echo base_url();
+        //echo base_url();
         $this->load->view('mensaje');
         $this->load->view('plantilla/pie');
 	}
