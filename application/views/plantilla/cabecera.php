@@ -3,7 +3,7 @@
 	<head>
       <meta charset="utf-8">
 	  <title>Plantilla Ejemplo</title>
-	  <link href="estilos.css" rel="stylesheet" type="text/css">
+	  <link href="<?php echo base_url(); ?> activos/estilos.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
 	<header>
